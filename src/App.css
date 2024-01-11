@@ -1,0 +1,32 @@
+#darkModeSwitch{
+    border:1px solid black;
+}
+#darkModeLabel{
+    margin-right:5px;
+    position:relative;
+    bottom:2px;
+}
+.placeholderColorlight::placeholder{
+    color:black;
+}
+.placeholderColordark::placeholder{
+    color:white;
+}
+.alertlight{
+    background-color: white;
+    color:#212529;
+    
+}
+.alertdark{
+    background-color: #212529;
+    color:white;
+    
+
+}
+.myNavbarlight{
+    box-shadow:inset  #21252970 0px -1px 1px;
+}
+.myNavbardark{
+    box-shadow: inset rgba(255, 255, 255, 0.479) 0px -1px 1px;
+    
+}
